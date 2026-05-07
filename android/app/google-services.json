@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643804735807",
+    "project_id": "protifolio-be322",
+    "storage_bucket": "protifolio-be322.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643804735807:android:1ab2c44206820656814b8a",
+        "android_client_info": {
+          "package_name": "com.example.protifolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2EpzBbutQOMjFDGXCWQfP_3P4YM2-J-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "protifolio-be322",
+          "appId": "1:643804735807:android:1ab2c44206820656814b8a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "protifolio-be322",
+          "appId": "1:643804735807:ios:99656e8f606f5c6e814b8a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "protifolio-be322",
+          "appId": "1:643804735807:ios:99656e8f606f5c6e814b8a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "protifolio-be322",
+          "configurations": {
+            "android": "1:643804735807:android:1ab2c44206820656814b8a",
+            "ios": "1:643804735807:ios:99656e8f606f5c6e814b8a",
+            "macos": "1:643804735807:ios:99656e8f606f5c6e814b8a",
+            "web": "1:643804735807:web:29c9405d28e29f6c814b8a",
+            "windows": "1:643804735807:web:a502b294ec76eafc814b8a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
